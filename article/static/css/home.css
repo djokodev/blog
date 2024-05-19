@@ -62,14 +62,14 @@
         font-size: 20px;
         margin-top: 1%;
         margin-bottom: 2%;
-        margin-left: 5%;
+        margin-left: 30%;
     }
 
     .image-container img {
         border-radius: 2%;
         transition: transform 0.7s ease;
-        width: 450px;
-        height: 270px;
+        width: 500px;
+        height: 320px;
     }
 
     .article-container {
@@ -78,13 +78,13 @@
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
-        width: 450px;
-        height: 270px;
+        width: 500px;
+        height: 320px;
         margin-bottom: 50px;
     }
 }
 
-@media only screen and (max-width: 5000px) {
+@media only screen and (min-width: 2001px) and (max-width: 5000px) {
     .djokoblog {
         margin-top: 5%;
         font-size: 40px;
