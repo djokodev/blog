@@ -1,0 +1,185 @@
+.djokoblog {
+    text-align: center;
+    margin-top: 7%;
+    font-family: serif;
+}
+
+@media only screen and (max-width:750px) {
+    .djokoblog {
+        margin-top: 5%;
+        font-size: 35px;
+        font-family: serif;
+        text-align: center;
+    }
+
+    .bio {
+        text-align: center;
+        margin: 2%;
+    }
+
+    .latest {
+        margin-left: 5%;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 1%;
+        margin-bottom: 5%;
+    }
+
+    .image-container img {
+        border-radius: 2%;
+        transition: transform 0.7s ease;
+        width: 300px;
+        height: 170px;
+    }
+
+    .article-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 170px;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 751px) and (max-width: 2000px) {
+    .djokoblog {
+        margin-top: 7%;
+        font-size: 40px;
+        font-family: serif;
+        text-align: center;
+    }
+
+    .bio {
+        text-align: center;
+        margin: 1%;
+    }
+
+    .latest {
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 1%;
+        margin-bottom: 2%;
+        margin-left: 30%;
+    }
+
+    .image-container img {
+        border-radius: 2%;
+        transition: transform 0.7s ease;
+        width: 500px;
+        height: 320px;
+    }
+
+    .article-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        height: 320px;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 2001px) and (max-width: 5000px) {
+    .djokoblog {
+        margin-top: 5%;
+        font-size: 40px;
+        font-family: serif;
+        text-align: center;
+    }
+
+    .bio {
+        text-align: center;
+        margin: 1%;
+    }
+
+    .latest {
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 1%;
+        margin-bottom: 2%;
+        margin-left: 33%;
+    }
+
+    .image-container img {
+        border-radius: 2%;
+        transition: transform 0.7s ease;
+        width: 600px;
+        height: 350px;
+    }
+
+    .article-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
+        height: 350px;
+        margin-bottom: 50px;
+    }
+}
+
+
+/* .bio {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+} */
+
+.not-article {
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+.title {
+    color: white;
+}
+
+/* .article-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 350px;
+    margin-bottom: 50px;
+} */
+
+.image-container {
+    position: relative;
+}
+
+/* .image-container img {
+    border-radius: 2%;
+    transition: transform 0.7s ease;
+    width: 600px;
+    height: 350px;
+} */
+
+.image-container:hover img {
+    transform: scale(1.05);
+}
+
+.text-container {
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}

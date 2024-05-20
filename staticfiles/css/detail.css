@@ -1,0 +1,295 @@
+@media only screen and (max-width:750px) {
+    .detail-container {
+        text-align: center;
+    }
+
+    .image {
+        margin-top: 10%;
+        border-radius: 2%;
+        width: 230px;
+        height: 130px;
+    }
+
+    .container-comment {
+        width: 300px;
+        height: 150px;
+        border-radius: 10px;
+        margin: auto;
+        border: 1px solid #8b8a8a;
+        padding: 20px;
+        text-align: left;
+        margin-bottom: 2%;
+    }    
+
+    .container-comment input[type="text"],
+    .container-comment textarea {
+        border: none; 
+        outline: none;
+        background-color: #F5F5F5;
+        width: 250px;
+    }
+
+    .container-comment textarea {
+        width: 200px;
+    }    
+
+    .hidden {
+        display: none;
+    }
+
+    .detail-container h1 {
+        margin-top: 3%;
+        margin-bottom: 3%;
+    } 
+
+    .container-icon {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #ccc; 
+        border-bottom: 1px solid #ccc; 
+        padding: 10px 20px; 
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 2%;
+    }
+
+    .container {
+        text-align: center;
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+
+    .container input {
+        font-size: 20px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .container-icon > div {
+        display: flex;
+        align-items: center; 
+    }
+    
+    .container-icon > div p {
+        margin-left: 5px; 
+        margin-top: 15%;
+        font-size: 20px;
+    } 
+
+    .comment {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+    
+    .comment p {
+        margin: 0; 
+    }
+
+    .username {
+        text-align: left;
+    }
+
+}
+
+@media only screen and (min-width: 751px) and (max-width: 2000px) {
+    .detail-container {
+        text-align: center;
+    }
+
+    .image {
+        margin-top: 5%;
+        border-radius: 2%;
+        width: 500px;
+        height: 300px;
+        margin-bottom: -1%; 
+    }
+
+    .container-comment {
+        width: 500px;
+        height: 150px;
+        border-radius: 10px;
+        margin: auto;
+        border: 1px solid #8b8a8a;
+        padding: 20px;
+        text-align: left;
+        margin-bottom: 2%;
+    }    
+
+    .container-comment input[type="text"],
+    .container-comment textarea {
+        border: none; 
+        outline: none;
+        background-color: #F5F5F5;
+        width: 400px;
+    }
+
+    .container-comment textarea {
+        width: 400px;
+    }    
+
+    .hidden {
+        display: none;
+    }
+
+    .detail-container h1 {
+        margin-top: 2%;
+        margin-bottom: 3%;
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+
+    .container-icon {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #ccc; 
+        border-bottom: 1px solid #ccc; 
+        padding: 10px 20px; 
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 2%;
+    }
+
+    .container {
+        text-align: center;
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+
+    .container input {
+        font-size: 20px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .container-icon > div {
+        display: flex;
+        align-items: center; 
+    }
+    
+    .container-icon > div p {
+        margin-left: 5px; 
+        margin-top: 15%;
+        font-size: 20px;
+    } 
+
+    .comment {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        margin-top: 3%;
+    }
+
+    .content-article {
+        margin: 5%;
+        margin-top: 3%;
+    }
+    
+    .comment p {
+        margin: 0; 
+    }
+
+    .username {
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 2001px) and (max-width: 5000px) {
+    .detail-container {
+        text-align: center;
+    }
+
+    .image {
+        margin-top: 5%;
+        border-radius: 2%;
+        width: 600px;
+        height: 350px;
+    }
+
+    .container-comment {
+        width: 700px;
+        height: 180px;
+        border-radius: 10px;
+        margin: auto;
+        border: 1px solid #8b8a8a;
+        padding: 20px;
+        text-align: left;
+        margin-bottom: 2%;
+    }    
+
+    .container-comment input[type="text"],
+    .container-comment textarea {
+        border: none; 
+        outline: none;
+        background-color: #F5F5F5;
+        width: 500px;
+    }
+
+    .container-comment textarea {
+        width: 500px;
+    }    
+
+    .hidden {
+        display: none;
+    }
+
+    .detail-container h1 {
+        margin-top: 2%;
+        margin-bottom: 3%;
+    } 
+
+    .container-icon {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #ccc; 
+        border-bottom: 1px solid #ccc; 
+        padding: 10px 20px; 
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 2%;
+    }
+
+    .container {
+        text-align: center;
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+
+    .container input {
+        font-size: 20px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .container-icon > div {
+        display: flex;
+        align-items: center; 
+    }
+    
+    .container-icon > div p {
+        margin-left: 5px; 
+        margin-top: 15%;
+        font-size: 20px;
+    } 
+
+    .comment {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        margin-top: 2%;
+    }
+    
+    .comment p {
+        margin: 0; 
+    }
+
+    .username {
+        text-align: left;
+    }
+
+}
