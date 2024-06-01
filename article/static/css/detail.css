@@ -78,18 +78,43 @@
     } 
 
     .comment {
-        display: flex; 
-        justify-content: center;
-        align-items: center;
+        display: flex;
+        align-items: flex-start; /* Aligner les éléments au début pour un meilleur alignement des images et du texte */
         margin-top: 5%;
+        max-width: 600px; /* Fixe la largeur maximale des commentaires */
+        width: 100%; /* S'assure que les commentaires utilisent toute la largeur disponible */
+        padding: 10px; /* Ajouter du padding pour améliorer l'apparence */
+        border: 1px solid #ddd; /* Optionnel : ajouter une bordure pour distinguer les commentaires */
+        border-radius: 5px; /* Optionnel : coins arrondis pour un meilleur style */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optionnel : ajouter une ombre pour l'effet de profondeur */
+    }   
+    
+    .comment img {
+        margin-right: 10px; /* Ajouter un espace entre l'image et le texte */
+    }
+    
+    .info-comment {
+        flex: 1; /* Prend tout l'espace restant pour un alignement flexible */
+        overflow-wrap: break-word; /* Gérer les mots trop longs */
+        word-wrap: break-word; /* Gérer les mots trop longs pour les anciens navigateurs */
+        word-break: break-word; /* Gérer les mots trop longs */
     }
     
     .comment p {
-        margin: 0; 
+        margin: 0;
     }
 
     .username {
         text-align: left;
+        margin-bottom: 5px; 
+        font-size: 1.1em; 
+        color: #333; 
+    }
+    
+    .message {
+        font-size: 1em; 
+        color: #555; 
+        white-space: pre-wrap; 
     }
 
 }
