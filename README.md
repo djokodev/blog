@@ -1,3 +1,6 @@
+## Vous pouvez visitez le blog en ligne en suivant cette adresse : `djoko.pythonanywhere.com`
+
+
 ## Desoler je ne suis pas un bon designer mais bon voici un petit apercu 😅
 
 <img width="252" alt="article_detail" src="https://github.com/djokodev/blog/assets/161902861/226b783a-44db-4634-9460-4b46848da851">
