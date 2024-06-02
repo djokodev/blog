@@ -1,4 +1,4 @@
-## Vous pouvez visitez le blog en ligne en suivant cette adresse : djoko.pythonanywhere.com
+## Vous pouvez visitez le blog en ligne en suivant cette adresse : `djoko.pythonanywhere.com`
 
 
 ## Desoler je ne suis pas un bon designer mais bon voici un petit apercu 😅
