@@ -3,7 +3,17 @@ from django.db import models
 from django.utils import timezone
 
 
+# Gestionnaire personnalisé pour récupérer toutes les publications ayant le statut PUBLISHED.
+class PublishedManager(models.Manager):
+    def get_queryset(self):
+        return super().get_queryset().filter(status=Post.Status.PUBLISHED)
+
+
 class Post(models.Model):
+
+    objects = models.Manager()
+    published = PublishedManager()
+
     class Status(models.TextChoices):
         DRAFT = "DF", "DRAFT"
         PUBLISHED = "PB", "PUBLISHED"
