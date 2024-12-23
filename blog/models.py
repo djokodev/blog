@@ -2,6 +2,7 @@ from django.conf import settings
 from django.db import models
 from django.utils import timezone
 from django.urls import reverse
+from taggit.managers import TaggableManager
 
 
 # Gestionnaire personnalisé pour récupérer toutes les publications ayant le statut PUBLISHED.
@@ -14,6 +15,8 @@ class Post(models.Model):
 
     objects = models.Manager()
     published = PublishedManager()
+
+    tags = TaggableManager()
 
     class Status(models.TextChoices):
         DRAFT = "DF", "DRAFT"
